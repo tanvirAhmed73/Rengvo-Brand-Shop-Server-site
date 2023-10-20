@@ -10,9 +10,6 @@ app.use(cors());
 app.use(express.json());
 
 
-// zzzRUkxZtjLXiNXy
-// brand-store-data
-
 
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.q1fcrjh.mongodb.net/?retryWrites=true&w=majority`;
